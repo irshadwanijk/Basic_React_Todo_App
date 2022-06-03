@@ -59,10 +59,8 @@ export default function Todo() {
                     className="delete-todo-btn"
                     onClick={() => deleteItem(index)}
                   >
-                    <img
-                      src="./icons/trash.svg"
-                      alt="sorry, something went wrong"
-                    />
+                    Del
+                    {/* <img src="./icons/delete.jpg" alt="Delete" /> */}
                   </button>
                 </p>
               </div>
@@ -70,7 +68,7 @@ export default function Todo() {
           })}
         </div>
         <button
-          className={items.length > 0 ? "remove-btn" : "hide-rem-btn"}
+          className={items.length > 0 ? "remove-all-btn" : "hide-rem-btn"}
           onClick={removeAllItems}
         >
           Remove all
