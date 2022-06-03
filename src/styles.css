@@ -22,7 +22,7 @@
   text-align: left;
   font-size: 15px;
 }
-.input-todo :focus {
+input:focus {
   outline: none;
 }
 .add-todo {
@@ -55,11 +55,9 @@
 }
 
 .delete-todo-btn {
-  font-size: 13px;
-  font-weight: bold;
   border-radius: 10px;
   border: none;
-  background-color: rgb(255, 99, 99);
+  background-color: transparent;
 }
 
 .remove-all-btn {
@@ -68,9 +66,9 @@
   margin: 5px 100px;
   border-radius: 20px;
   border: none;
-  background: rgb(255, 99, 99);
+  background: #eb5353;
 }
 
-.hide-rem-btn {
+.hide-rem-all-btn {
   visibility: hidden;
 }
