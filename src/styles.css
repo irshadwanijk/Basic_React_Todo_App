@@ -1,36 +1,34 @@
 #root {
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
 }
 
 .todo-app {
-  background: cornflowerblue;
+  background: #243a73;
   margin: auto;
-  max-width: 500px;
-  border: 2px solid rgb(204, 194, 194);
+  max-width: 400px;
+  border: 2px solid rgba(204, 194, 194, 0.5);
   border-radius: 10px;
 }
 
 .input-todo {
+  width: 70%;
   display: inline;
-  white-space: nowrap;
-  /* margin: auto; */
-  margin-left: 10%;
-  margin-right: 20%;
-  margin-top: 3%;
+  margin: 15px 15px;
   background: rgb(175, 175, 175);
   border: none;
   border-radius: 5px;
   padding: 3px;
   text-align: left;
-  color: rgb(12, 11, 11);
   font-size: 15px;
 }
-
+.input-todo :focus {
+  outline: none;
+}
 .add-todo {
   border-radius: 10px;
-  padding: 3px;
-  /* margin-left: 10px; */
+  border: none;
+  padding: 5px;
   background: rgb(3, 146, 87);
   color: white;
   font-size: 12px;
@@ -38,39 +36,39 @@
 
 .items {
   display: flex;
-  margin: 5px;
+  margin: 5px 10px;
   display: inline;
   white-space: nowrap;
 }
 
 .item {
-  display: inline;
   display: flex;
   justify-content: space-between;
-  max-width: 95%;
-  border: 2px solid rgb(9, 53, 90);
+  max-width: 90%;
+  border: 2px solid rgba(9, 53, 90, 0.5);
   border-radius: 10px;
-  background: steelblue;
-  margin-left: 5px;
+  background: #a5becc;
+  margin-left: 15px;
   padding: 3px;
-  padding-bottom: 7px;
   font-size: 15px;
   overflow: hidden;
 }
 
 .delete-todo-btn {
-  position: absolute;
+  font-size: 13px;
+  font-weight: bold;
   border-radius: 10px;
-  left: 78%;
+  border: none;
+  background-color: rgb(255, 99, 99);
 }
 
-.remove-btn {
+.remove-all-btn {
+  font-size: 16px;
   text-align: center;
-
-  margin-left: 37%;
-  margin-bottom: 5px;
+  margin: 5px 100px;
   border-radius: 20px;
-  background: #de0055;
+  border: none;
+  background: rgb(255, 99, 99);
 }
 
 .hide-rem-btn {
